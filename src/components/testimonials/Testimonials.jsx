@@ -19,25 +19,25 @@ const clientFeedback = [
   {
 
     image:AVTR1,
-    client: "sasa",
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    client: "Emily Smith",
+    review: "I have been working with Mostafa for the past 6 months and they have exceeded my expectations. They are very knowledgeable in web development and have helped me to bring my ideas to life. Their attention to detail and willingness to go the extra mile has made my website look professional and user-friendly."
   },
   {
 
     image:AVTR2,
-    client: "sasa",
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit."  },
+    client: "David Brown",
+    review: "I was in need of a new website for my business and Mostafa was able to create exactly what I had in mind. They were professional, efficient, and delivered the final product on time. I would highly recommend them to anyone looking for a web developer"  },
   {
 
     image:AVTR3,
-    client: "sasa",
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    client: "Michael Williams",
+    review: "I was new to web development and Mostafa was able to guide me through the process and explain everything in a way that was easy for me to understand. They were patient and always available to answer my questions. Their expertise in HTML, CSS, and JavaScript helped to make my website look great."
   },
   {
 
     image:AVTR4,
-    client: "sasa",
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    client: "Aisha Ahmed",
+    review: "I have been working with Mostafa for several months now, and I am extremely impressed with their skills and work ethic. They have helped me to create a website that is both visually appealing and easy to navigate. I would recommend them to anyone in need of a web developer."
   }
 ]
 

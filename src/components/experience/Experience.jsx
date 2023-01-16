@@ -29,7 +29,7 @@ export const Experience = () => {
           <BsFillPatchCheckFill className='icon'/>
           <div>
           <h4>JavaScript</h4>
-          <small className='text-light'>Experienced</small>
+          <small className='text-light'>Intermediate</small>
           </div>
         </article>
         <article className='experience-details'>
@@ -43,14 +43,14 @@ export const Experience = () => {
           <BsFillPatchCheckFill className='icon'/>
           <div>
           <h4>Tailwind</h4>
-          <small className='text-light'>Experienced</small>
+          <small className='text-light'>Intermediate</small>
           </div>
         </article>
         <article className='experience-details'>
           <BsFillPatchCheckFill className='icon'/>
           <div>
           <h4>React</h4>
-          <small className='text-light'>Experienced</small>
+          <small className='text-light'>Intermediate</small>
           </div>
         </article>
       </div>
@@ -64,42 +64,42 @@ export const Experience = () => {
           <BsFillPatchCheckFill className='icon'/>
           <div>
           <h4>Node JS</h4>
-          <small className='text-light'>Experienced</small>
+          <small className='text-light'>Intermediate</small>
           </div>
         </article>
         <article className='experience-details'>
           <BsFillPatchCheckFill className='icon'/>
           <div>
           <h4>MongoDB</h4>
-          <small className='text-light'>Experienced</small>
-          </div>
-        </article>
-        <article className='experience-details'>
-          <BsFillPatchCheckFill className='icon'/>
-          <div>
-          <h4>PHP</h4>
-          <small className='text-light'>Experienced</small>
+          <small className='text-light'>Basic</small>
           </div>
         </article>
         <article className='experience-details'>
           <BsFillPatchCheckFill className='icon'/>
           <div>
           <h4>MySQL</h4>
-          <small className='text-light'>Experienced</small>
+          <small className='text-light'>Intermediate</small>
           </div>
         </article>
         <article className='experience-details'>
           <BsFillPatchCheckFill className='icon'/>
           <div>
           <h4>Python</h4>
+          <small className='text-light'>Basic</small>
+          </div>
+        </article>
+        <article className='experience-details'>
+          <BsFillPatchCheckFill className='icon'/>
+          <div>
+          <h4>Wordpress</h4>
           <small className='text-light'>Experienced</small>
           </div>
         </article>
         <article className='experience-details'>
           <BsFillPatchCheckFill className='icon' />
           <div>
-          <h4>Wordpress</h4>
-          <small className='text-light'>Experienced</small>
+          <h4>PHP</h4>
+          <small className='text-light'>Basic</small>
           </div>
         </article>
       </div>

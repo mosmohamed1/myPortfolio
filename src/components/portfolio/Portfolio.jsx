@@ -4,51 +4,43 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 const data = [
   {
     id: 1,
     image:IMG1,
-    title: "sasa",
-    github: 'https://github.com/',
-    demo: 'https://dribble.com/'
+    title: "Jloys Jewllery WordPress Website ",
+    github: 'https://github.com/mosmohamed1',
+    demo: 'https://jloys.de/'
   },
   {
     id: 2,
     image:IMG2,
-    title: "sasa",
-    github: 'https://github.com/',
-    demo: 'https://dribble.com/'
+    title: "Leon CSS and HTML Template",
+    github: 'https://github.com/mosmohamed1/Leon-Template',
+    demo: '#'
   },
   {
     id: 3,
     image:IMG3,
-    title: "sasa",
-    github: 'https://github.com/',
-    demo: 'https://dribble.com/'
+    title: "Kasper CSS and HTML Template",
+    github: 'https://github.com/mosmohamed1/Kasper-Template',
+    demo: '#'
   },
   {
     id: 4,
     image:IMG4,
-    title: "sasa",
-    github: 'https://github.com/',
-    demo: 'https://dribble.com/'
+    title: "Keyframe Template",
+    github: 'https://github.com/mosmohamed1/Template-3-',
+    demo: '#'
   },
   {
     id: 5,
-    image:IMG5,
-    title: "sasa",
-    github: 'https://github.com/',
-    demo: 'https://dribble.com/'
-  },
-  {
-    id: 6,
     image:IMG6,
-    title: "sasa",
-    github: 'https://github.com/',
-    demo: 'https://dribble.com/'
+    title: "LocalStorage Template",
+    github: 'https://github.com/mosmohamed1/HTMl-CSS-JS-Template',
+    demo: '#'
   }
 ]
 export const Portfolio = () => {

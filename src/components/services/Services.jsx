@@ -7,7 +7,7 @@ export const Services = () => {
     <h5>What I Offer</h5>
     <h2>Services</h2>
     <div className="container container-services">
-      <article className="service">
+      {/* <article className="service">
         <div className="service-head">
           <h3>UI/UX Design</h3>
         </div>
@@ -33,7 +33,7 @@ export const Services = () => {
               <p>Lorem ipsum dolor sit amet,</p>
             </li>
           </ul>
-      </article>
+      </article> */}
 
 
       <article className="service">
@@ -43,33 +43,41 @@ export const Services = () => {
           <ul className="service-list">
           <li>
               <BiCheck className='icon' />
-              <p>Lorem ipsum dolor sit amet,</p>
+              <p>Build and maintain websites and web applications</p>
             </li>
             <li>
               <BiCheck className='icon' />
-              <p>Lorem ipsum dolor sit amet,</p>
+              <p>Write and test code, including HTML, CSS, JavaScript, and PHP</p>
             </li>
             <li>
               <BiCheck className='icon' />
-              <p>Lorem ipsum dolor sit amet,</p>
+              <p>Using React and CSS Framework eg. Tailwind and Material UI and Bootstrap</p>
             </li>
             <li>
               <BiCheck className='icon' />
-              <p>Lorem ipsum dolor sit amet,</p>
+              <p>Optimize websites for maximum speed and scalability</p>
             </li>
             <li>
               <BiCheck className='icon' />
-              <p>Lorem ipsum dolor sit amet,</p>
+              <p>Create and implement responsive design to make sure the website looks good on all devices.</p>
             </li>
             <li>
               <BiCheck className='icon' />
-              <p>Lorem ipsum dolor sit amet,</p>
+              <p>Understand and work with APIs and web services</p>
+            </li>
+            <li>
+              <BiCheck className='icon' />
+              <p>Stay up-to-date with the latest web technologies and industry trends</p>
+            </li>
+            <li>
+              <BiCheck className='icon' />
+              <p>Implement and maintain SEO best practices</p>
             </li>
           </ul>
       </article>
 
 
-      <article className="service">
+      {/* <article className="service">
         <div className="service-head">
           <h3>Content Ceation</h3>
         </div>
@@ -95,7 +103,7 @@ export const Services = () => {
               <p>Lorem ipsum dolor sit amet,</p>
             </li>
           </ul>
-      </article>
+      </article> */}
     </div>
     </section>
   )

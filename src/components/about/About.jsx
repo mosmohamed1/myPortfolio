@@ -7,7 +7,6 @@ import { VscFolderLibrary } from 'react-icons/vsc'
 
 
 
-
 export const About = () => {
   return (
     <section id='about'>
@@ -24,26 +23,24 @@ export const About = () => {
           <article className='about-card'>
           <BsAward className='about-icon' />
             <h5>Experience</h5>
-            <small>3+ Years Working</small>
+            <small>1+ Years Working</small>
           </article>
           <article className='about-card'>
           <FiUsers className='about-icon' />
             <h5>Clients</h5>
-            <small>200+ Worldwide</small>
+            <small>20+ Worldwide</small>
           </article>
           <article className='about-card'>
           <VscFolderLibrary className='about-icon' />
             <h5>Projects</h5>
-            <small>80+ completed</small>
+            <small>5+ completed</small>
           </article>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur 
-          adipisicing elit. Eveniet ratione illum 
-          harum voluptatem, architecto iste facilis
-          aut eligendi ipsam quod perferendis odit,
-          amet neque perspiciatis
-          fuga a. Dignissimos, corporis consectetur?
+        Hi there<span role="img" aria-label="sheep">👋,</span> <br></br>
+        My name is Mostafa, I was born in Cairo but now live in Germany.
+      <br></br>  I study Computer Engineering Software at Duisburg Essen University.
+        I work on the front and back ends of a website or application. I can manage projects such as databases, APIs, and user-facing websites, as well as interact with clients throughout the development process.
         </p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
