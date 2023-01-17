@@ -5,6 +5,7 @@ import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG6 from '../../assets/portfolio6.jpg'
+import IMG7 from '../../assets/portfolio7.jpg'
 
 const data = [
   {
@@ -48,6 +49,15 @@ const data = [
     title: "LocalStorage Template",
     github: 'https://github.com/mosmohamed1/HTMl-CSS-JS-Template',
     URL: 'http://localstorage.mostafamrezk.com/',
+    status: "Live Demo"
+
+  },
+  {
+    id: 6,
+    image:IMG7,
+    title: "Bootstrap 5 Template",
+    github: 'https://github.com/mosmohamed1/https://github.com/mosmohamed1/Bootstrap-5-template',
+    URL: 'boostrap5T1.mostafamrezk.com',
     status: "Live Demo"
 
   }
