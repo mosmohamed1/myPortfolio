@@ -12,35 +12,44 @@ const data = [
     image:IMG1,
     title: "Jloys Jewllery WordPress Website ",
     github: 'https://github.com/mosmohamed1',
-    demo: 'https://jloys.de/'
+    URL: 'https://jloys.de/',
+    status: "Live" 
   },
   {
     id: 2,
     image:IMG2,
     title: "Leon CSS and HTML Template",
     github: 'https://github.com/mosmohamed1/Leon-Template',
-    demo: '#'
+    URL: 'http://leon.mostafamrezk.com/',
+    status: "Live Demo" 
+
   },
   {
     id: 3,
     image:IMG3,
     title: "Kasper CSS and HTML Template",
     github: 'https://github.com/mosmohamed1/Kasper-Template',
-    demo: '#'
+    URL: 'http://kasper.mostafamrezk.com/',
+    status: "Live Demo"
+
   },
   {
     id: 4,
     image:IMG4,
     title: "Keyframe Template",
     github: 'https://github.com/mosmohamed1/Template-3-',
-    demo: '#'
+    URL: 'http://keyframe.mostafamrezk.com/',
+    status: "Live Demo" 
+
   },
   {
     id: 5,
     image:IMG6,
     title: "LocalStorage Template",
     github: 'https://github.com/mosmohamed1/HTMl-CSS-JS-Template',
-    demo: '#'
+    URL: 'http://localstorage.mostafamrezk.com/',
+    status: "Live Demo"
+
   }
 ]
 export const Portfolio = () => {
@@ -52,7 +61,7 @@ export const Portfolio = () => {
 
     <div className="container portfolio-container">
     {
-      data.map(({id,image,title,github,demo})=> {
+      data.map(({id,image,title,github,URL,status})=> {
         return (
           <article key={id} className='portfolio-item'>
       <div className="image">
@@ -61,7 +70,7 @@ export const Portfolio = () => {
         <h3>{title}</h3>
         <div className="pcta">
         <a href={github} className='btn' target="_blank">GitHub</a>
-        <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
+        <a href={URL} className='btn btn-primary' target="_blank">{status}</a>
         </div>
       </article>
         )

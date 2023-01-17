@@ -4,6 +4,25 @@ header {
     overflow: hidden;
     background: var(--color-bg-variant);
 }
+#light header {
+    background: var(--light-pure);
+}
+#dark header {
+    background: var(--dark-pure);
+}
+#light h5 {
+    color:var(--text-light-content);
+}
+#light h1 {
+    color:var(--text-light-title);
+}
+#dark h5 {
+    color:var(--text-dark-content);
+}
+#dark h1 {
+    color:var(--text-dark-title);
+}
+
 .header-container {
     text-align: center;
     height: 100%;
@@ -34,10 +53,10 @@ header {
     height: 2rem;
     background: var(--color-primary);
 }
+
 /* ME */
 
 .me {
-    background: linear-gradient(var(--color-bg),transparent);
     width: 22rem;
     height: 20rem;
     position: absolute;
@@ -47,6 +66,12 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 0 1.5rem;
+}
+#dark .me {
+    background: linear-gradient(var(--dark-variant),transparent);
+}
+#light .me {
+    background: linear-gradient(var(--light-variant),transparent);
 }
 .me img {
     height: 25rem;
@@ -116,6 +141,6 @@ img .photo-two {
 
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 800px;
     }
 }

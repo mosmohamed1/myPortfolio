@@ -4,20 +4,31 @@
     gap: 15%;
 }
 
+
 .about-me {
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-bg-variant),
-        transparent
-    );
+
     display: grid;
     place-items: center;
 }
-
+#dark .about-me {
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--dark-variant),
+        transparent
+    );
+}
+#light .about-me {
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--light-variant),
+        transparent
+    );
+}
 .about-me-img {
     border-radius: 2rem;
     overflow: hidden;
@@ -35,36 +46,73 @@
     gap: 1.5rem;
 }
 .about-card {
-    background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
 }
-
-.about-card:hover {
+#dark .about-card {
+    background: var(--dark-variant);
+}
+#light .about-card {
+    background: var(--light-variant);
+}
+#dark .about-card:hover {
     background: transparent;
-    border-color: var(--color-primary);
     cursor: default;
+}
+#light .about-card:hover {
+    background: transparent;
+    cursor: default;
+}
+#dark .about-card:hover {
+    border-color: var(--primary-dark);
+}
+#light .about-card:hover {
+    border-color: var(--primary-light);
 }
 
 .about-icon {
-    color: var(--color-primary);
+    
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
-.about-icon h5 {
+
+#dark .about-icon {
+    color: var(--primary-dark);
+}
+#light .about-icon {
+    color: var(--primary-light);
+}
+.about-card h5 {
     font-size: 0.95rem;
+}
+#dark .about-card h5 {
+    color: var(--text-dark-title);
+}
+#light .about-card h5 {
+    color: var(--text-light-title);
 }
 
 .about-card small {
     font-size: 0.7rem;
-    color: var(--color-light);
+    
 }
-
+#dark .about-card small {
+    color: var(--text-dark-content);
+}
+#light .about-card small {
+    color: var(--text-light-content);
+}
 .about-content p {
     margin:  2rem 0 2.6rem ;
-    color: var(--color-light);
+    
+}
+#dark .about-content p {
+    color: var(--text-dark-content);
+}
+#light .about-content p {
+    color: var(--text-light-content);
 }
 
 

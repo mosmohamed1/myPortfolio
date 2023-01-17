@@ -6,26 +6,42 @@
 }
 
 .experience-container > div {
-
-    background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--main-transition);
 }
+#dark .experience-container > div {
 
-.experience-container > div:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
+    background: var(--dark-variant);
+}
+#light .experience-container > div {
+
+    background: var(--light-variant);
 }
 
+#dark .experience-container > div:hover,
+#light .experience-container > div:hover {
+    background: transparent;
+    cursor: default;
+}
+#dark .experience-container > div:hover {
+    border-color: var(--primary-dark);
+}
+#light .experience-container > div:hover {
+    border-color: var(--primary-light);
+}
 .experience-container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary-variant);
+    
 }
-
+#dark .experience-container > div h3 {
+    color: var(--primary-dark);
+}
+#light .experience-container > div h3 {
+    color: var(--primary-light);
+}
 .experience-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -42,6 +58,30 @@
 .experience-details .icon {
     margin-top: 6px;
     color: var(--color-primary-variant);
+    width: 2rem;
+}
+#dark .experience-details .icon {
+
+    color: var(--variant-dark);
+}
+#light .experience-details .icon {
+
+    color: var(--variant-light);
+}
+#dark .experience-details h4 {
+    color: var(--text-dark-title);
+}
+#light .experience-details h4 {
+    color: var(--text-light-title);
+    width: 10rem;
+}
+#dark .experience-details small {
+    color: var(--text-dark-content);
+    font-size: 0.7rem;
+}
+#light .experience-details small {
+    color: var(--text-light-content);
+    font-size: 0.7rem;
 }
 
 /* media queries medium devices */ 

@@ -2,6 +2,8 @@ import React from 'react'
 import './footer.css'
 import {FaFacebookF,FaInstagram,FaTwitter} from 'react-icons/fa'
 import logo from '../../assets/Mostafa Rezk-logos_white.png'
+// import blogo from '../../assets/logo-black.png'
+
 export const Footer = () => {
   return (
     <footer id='footer'>
@@ -17,13 +19,13 @@ export const Footer = () => {
       </ul>
       <div className="footer-social">
         <a href="https://www.facebook.com/mostafamrezk1/">
-          <FaFacebookF />
+          <FaFacebookF className='icon' />
         </a>
         <a href="https://www.instgram.com/mostafamrezk1/">
-        <FaInstagram />
+        <FaInstagram className='icon' />
         </a>
         <a href="https://www.twitter.com/mostafamrezk1/">
-          <FaTwitter />
+          <FaTwitter className='icon' />
         </a>
 
       </div>

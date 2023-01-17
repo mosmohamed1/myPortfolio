@@ -6,6 +6,7 @@ import { RiServiceLine} from 'react-icons/ri'
 import { useState } from 'react'
 
 
+
 export const Navi = () => {
   const [activeNav,setActiveNav] = useState('#header');
   return (

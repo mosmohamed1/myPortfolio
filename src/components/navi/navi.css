@@ -1,6 +1,6 @@
 nav  {
     
-    background: rgba(0, 0, 0, 0.3);
+
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -11,28 +11,51 @@ nav  {
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
     position: fixed;
 }
 
+
+#dark nav {
+    background: rgba(255, 255, 255, 0.3);
+}
+#light nav {
+    background: rgba(0, 0, 0, 0.3);
+}
 nav a {
     background: transparent;
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-light);
-    font-size: 1.1rem;
 
+    font-size: 1.1rem;
+}
+#dark nav a {
+    color: var(--text-dark-content);
+}
+#light nav a {
+    color: var(--text-light-content);
 }
 
-nav a:hover {
+#dark nav a:hover {
 
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.3);
+
+}
+#light nav a:hover {
+
+    background: rgba(255, 255, 255, 0.3);
+
+}
+#dark nav a.active{
+
+    background: var(--dark-pure);
+    color: var(--text-dark-content);
     
 }
-nav a.active{
+#light nav a.active{
 
-    background: var(--color-bg);
-    color: var(--color-light);
+    background: var(--light-pure);
+    color: var(--text-light-content);
     
 }
